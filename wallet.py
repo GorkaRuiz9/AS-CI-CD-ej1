@@ -9,3 +9,6 @@ class Wallet:
 
     def remove_balance(self, val):
         self.balance = self.balance - val
+
+    def sum_1000(self):
+        self.balance = self.balance + 1000
