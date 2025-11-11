@@ -3,10 +3,12 @@ class Wallet:
         self.balance = balance
 
     def set_balance(self, val):
-        self.balance = self.balance + val + 777777777777777777777777777777777777777777777777777777777777777777777777777777777
-
+        self.balance = self.balance + val
     def get_balance(self):
         return self.balance
 
     def remove_balance(self, val):
-        self.balance = self.balance - val - 77777777777777777777777777777777777777777777777777777777777777777777777777777777777
+        self.balance = self.balance - val
+
+    def sum_1000(self):
+        self.balance = self.balance + 1000
